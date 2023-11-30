@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Faq from "./components/Faq";
+import NavbarComponent from "./components/NavbarComponent";
+// import Footer from "./components/Footer";
+// import Faq from "./components/Faq";
 
 import FaqPage from "./pages/FaqPage";
 import HomePage from "./pages/HomePage";
@@ -13,7 +13,7 @@ import TestimonialPage from "./pages/TestimonialPage";
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavbarComponent />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/snk" element={<SyaratKetenPage />} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
