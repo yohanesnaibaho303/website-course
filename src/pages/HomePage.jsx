@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { kelasTerbaru, dataSwiper } from "../data/index";
+import Faq from "../components/Faq";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -144,6 +145,9 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
+      {/* Section Faq */}
+      <Faq />
+      {/* Section Faq */}
     </div>
   );
 };
