@@ -52,7 +52,7 @@ export const semuaKelas = [
     title: "Character Illustration with Adobe Illustrator",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
-    delay: "1300",
+    delay: "",
   },
   {
     id: 2,
@@ -65,7 +65,7 @@ export const semuaKelas = [
     title: "UI UX Website Design for Beginner with Figma",
     price: "Rp. 340.000",
     buy: "Beli Kelas",
-    delay: "1600",
+    delay: "300",
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ export const semuaKelas = [
     title: "Mastering Web Developer Bootstrap 5",
     price: "Rp. 280.000",
     buy: "Beli Kelas",
-    delay: "1900",
+    delay: "600",
   },
   {
     id: 4,

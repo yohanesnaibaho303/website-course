@@ -9,7 +9,7 @@ const KelasPage = () => {
       <div className="kelas min-vh-100">
         <Container>
           <Row>
-            <Col>
+            <Col className="animate__animated animate__fadeInUp">
               <h1 className="fw-bold text-center">Semua Kelas</h1>
               <p className="text-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -19,7 +19,13 @@ const KelasPage = () => {
           <Row>
             {semuaKelas.map((kelas) => {
               return (
-                <Col key={kelas.id} className="shadow rounded">
+                <Col
+                  key={kelas.id}
+                  className="shadow rounded"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={kelas.delay}
+                >
                   <img
                     src={kelas.image}
                     alt="unsplash.com"
